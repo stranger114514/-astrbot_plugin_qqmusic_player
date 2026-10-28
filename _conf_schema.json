@@ -1,0 +1,27 @@
+{
+  "uin": {
+    "description": "QQ 号",
+    "type": "string",
+    "default": "10001",
+    "hint": "必填。QQ音乐搜索接口鉴权用；填写绿钻绑定的QQ号可解析更多歌曲。"
+  },
+  "cookie": {
+    "description": "QQ音乐 Cookie",
+    "type": "text",
+    "default": "",
+    "hint": "选填。网页端QQ音乐 Cookie；仅含 qqmusic_key 或 qm_keyst 时会被发送，用于解析VIP/高音质歌曲。"
+  },
+  "proxy": {
+    "description": "代理地址",
+    "type": "string",
+    "default": "",
+    "hint": "选填。示例 http://127.0.0.1:7890"
+  },
+  "send_mode": {
+    "description": "发送方式",
+    "type": "string",
+    "default": "voice_first",
+    "hint": "voice_first=优先发语音，失败或平台不支持时自动发音频文件（推荐）；file=直接发完整音频文件；both=语音和文件都发。语音通过本地文件 URI 直投 NapCat，避免 base64 超限。",
+    "options": ["voice_first", "file", "both"]
+  }
+}

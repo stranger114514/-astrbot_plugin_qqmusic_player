@@ -1,0 +1,5 @@
+name: astrbot_plugin_qqmusic_voice
+desc: 通过LLM函数调用主观点播QQ音乐歌曲，并以语音形式发送
+version: v1.0.0
+author: astrbot
+astrbot_version: '>=4.28.1,<5.0.0'
