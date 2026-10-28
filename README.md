@@ -1,0 +1,1 @@
+# -astrbot_plugin_qqmusic_player
